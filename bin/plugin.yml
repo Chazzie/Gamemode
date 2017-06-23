@@ -1,0 +1,16 @@
+name: gamemode
+version: 1
+main: main.main
+
+commands:
+   gamemode:
+     description: set your gamemode
+     aliases: [gm]
+
+permissions:
+   gamemode.change.own:
+     description: set the gamemode of yourself
+     default: false
+   gamemode.change.others:
+     description: set other players gamemode 
+     default: false
